@@ -1,3 +1,5 @@
+// Time Complexity: O(n)
+// Space Complexity: O(n)
 var findValidElements = function (nums) {
   let n = nums.length;
 

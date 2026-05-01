@@ -1,3 +1,5 @@
+// Time Complexity: O(n log n) due to sorting
+// Space Complexity: O(n) for frequency maps and sorted vowels
 var sortVowels = function (s) {
   let vowels = new Set(["a", "e", "i", "o", "u"]);
   let freq = new Map();

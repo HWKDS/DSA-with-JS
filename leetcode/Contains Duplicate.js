@@ -1,3 +1,5 @@
+// Time Complexity: O(n)
+// Space Complexity: O(n)
 var containsDuplicate = function (nums) {
   let set = new Set();
   for (let num of nums) {
