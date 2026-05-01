@@ -1,4 +1,6 @@
 //hashmap
+// Time Complexity: O(n)
+// Space Complexity: O(n)
 var majorityElementByHashMap = function (nums) {
   let map = new Map();
   for (let num of nums) {
@@ -15,6 +17,8 @@ var majorityElementByHashMap = function (nums) {
   return answer;
 };
 // Boyer-Moore Voting Algorithm
+// Time Complexity: O(n)
+// Space Complexity: O(1)
 var majorityElementByBoyerMoore = function (nums) {
   let candidate;
   let count = 0;
