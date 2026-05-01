@@ -31,4 +31,5 @@ var majorityElementByBoyerMoore = function (nums) {
 
 let nums = [2, 2, 1, 1, 1, 2, 2];
 console.log(majorityElementByHashMap(nums));
-console.log(majorityElementByBoyerMoore(nums));
+let nums2 = [3, 2, 3];
+console.log(majorityElementByBoyerMoore(nums2));
