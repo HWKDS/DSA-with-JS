@@ -37,4 +37,8 @@ var findValidElements = function (nums) {
 };
 
 let nums = [1, 2, 3, 4, 5];
+let nums2 = [5, 4, 3, 2, 3];
+let nums3 = [1, 4, 3, 2, 3, 1];
 console.log(findValidElements(nums));
+console.log(findValidElements(nums2));
+console.log(findValidElements(nums3));
