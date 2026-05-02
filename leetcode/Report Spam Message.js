@@ -11,3 +11,9 @@ var reportSpam = function (message, bannedWords) {
   }
   return false;
 };
+
+console.log(reportSpam(["hello", "world", "hello"], ["hello"])); // true
+console.log(reportSpam(["hello", "world"], ["hello"])); // false
+console.log(
+  reportSpam(["hello", "world", "hello", "world"], ["hello", "world"]),
+); // true

@@ -1,6 +1,6 @@
 // time complexity: O(n * m) where n and m are the lengths of nums1 and nums2 respectively
 // space complexity: O(n) where n is the length of nums1
-var intersection = function (nums1, nums2) {
+var intersection1 = function (nums1, nums2) {
   let result = new Set();
 
   for (let i = 0; i < nums1.length; i++) {
@@ -15,7 +15,7 @@ var intersection = function (nums1, nums2) {
 
 // time complexity: O(n + m) where n and m are the lengths of nums1 and nums2 respectively
 // space complexity: O(n) where n is the length of nums1
-var intersection = function (nums1, nums2) {
+var intersection2 = function (nums1, nums2) {
   let set1 = new Set(nums1);
   let result = new Set();
 
@@ -26,3 +26,8 @@ var intersection = function (nums1, nums2) {
   }
   return [...result];
 };
+
+let nums1 = [1, 2, 2, 1];
+let nums2 = [2, 2];
+console.log(intersection1(nums1, nums2)); // [2]
+console.log(intersection2(nums1, nums2)); // [2]
