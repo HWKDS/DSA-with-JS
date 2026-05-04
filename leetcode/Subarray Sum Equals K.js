@@ -14,3 +14,7 @@ var subarraySum = function (nums, k) {
   }
   return count;
 };
+
+console.log(subarraySum([1, 1, 1], 2)); // 2
+console.log(subarraySum([1, 2, 3], 3)); // 2
+console.log(subarraySum([1, -1, 0], 0)); // 3
