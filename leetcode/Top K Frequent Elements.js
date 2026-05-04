@@ -10,6 +10,8 @@ var topKFrequent = function (nums, k) {
 };
 
 // bucket method
+// time: O(n)
+// space: O(n)
 var topKFrequent = function (nums, k) {
   let map = new Map();
   for (let val of nums) {

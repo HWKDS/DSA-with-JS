@@ -1,3 +1,5 @@
+// time: O(n)
+// space: O(n)
 var subarraySum = function (nums, k) {
   let map = new Map();
   let count = 0;
