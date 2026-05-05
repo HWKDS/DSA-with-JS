@@ -13,3 +13,7 @@ var productExceptSelf = function (nums) {
   }
   return result;
 };
+
+console.log(productExceptSelf([1, 2, 3, 4]));
+console.log(productExceptSelf([-1, 1, 0, -3, 3]));
+console.log(productExceptSelf([0, 0]));

@@ -10,3 +10,8 @@ var groupAnagrams = function (strs) {
   }
   return Array.from(map.values());
 };
+
+console.log(groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]));
+console.log(groupAnagrams([""]));
+console.log(groupAnagrams(["a"]));
+console.log(groupAnagrams(["a", "b", "c", "a"]));
