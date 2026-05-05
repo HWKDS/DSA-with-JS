@@ -1,3 +1,5 @@
+// time complexity: O(n)
+// space complexity: O(1)
 var productExceptSelf = function (nums) {
   let n = nums.length;
   let result = new Array(n).fill(1);

@@ -1,3 +1,5 @@
+// time complexity: O(n * k log k)
+// space complexity: O(n * k)
 var groupAnagrams = function (strs) {
   let map = new Map();
   for (let val of strs) {

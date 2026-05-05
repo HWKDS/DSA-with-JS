@@ -1,3 +1,5 @@
+//time complexity: O(n)
+//space complexity: O(1)
 var firstUniqChar = function (s) {
   let map = new Map();
   for (let val of s) {
