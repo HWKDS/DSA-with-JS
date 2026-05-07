@@ -1,3 +1,5 @@
+// time complexity: O(1)
+// space complexity: O(n)
 var MinStack = function () {
   this.stack = [];
   this.minStack = [];

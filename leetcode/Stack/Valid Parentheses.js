@@ -1,3 +1,5 @@
+// time complexity: O(n)
+// space complexity: O(n)
 var isValid = function (s) {
   let stack = [];
   let map = {
