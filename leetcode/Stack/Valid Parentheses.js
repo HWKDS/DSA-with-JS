@@ -1,3 +1,5 @@
+// time complexity: O(n)
+// space complexity: O(n)
 var isValid = function (s) {
   let stack = [];
   let map = {
@@ -18,3 +20,7 @@ var isValid = function (s) {
   }
   return stack.length === 0;
 };
+
+console.log(isValid("()"));
+console.log(isValid("()[]{}"));
+console.log(isValid("(]"));
