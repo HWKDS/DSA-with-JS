@@ -1,3 +1,5 @@
+// time complexity: O(n)
+// space complexity: O(n)
 var dailyTemperatures = function (temperatures) {
   let stack = [];
   let ans = new Array(temperatures.length).fill(0);
