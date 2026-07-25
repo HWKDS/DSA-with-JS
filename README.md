@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/HWKDS/DSA-with-JS/tree/master/0015-3sum) |
+| [0074-search-a-2d-matrix](https://github.com/HWKDS/DSA-with-JS/tree/master/0074-search-a-2d-matrix) |
 ## Two Pointers
 |  |
 | ------- |
@@ -13,4 +14,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/HWKDS/DSA-with-JS/tree/master/0015-3sum) |
+## Binary Search
+|  |
+| ------- |
+| [0074-search-a-2d-matrix](https://github.com/HWKDS/DSA-with-JS/tree/master/0074-search-a-2d-matrix) |
+## Matrix
+|  |
+| ------- |
+| [0074-search-a-2d-matrix](https://github.com/HWKDS/DSA-with-JS/tree/master/0074-search-a-2d-matrix) |
 <!---LeetCode Topics End-->
