@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/HWKDS/DSA-with-JS/tree/master/0015-3sum) |
 | [0074-search-a-2d-matrix](https://github.com/HWKDS/DSA-with-JS/tree/master/0074-search-a-2d-matrix) |
+| [0875-koko-eating-bananas](https://github.com/HWKDS/DSA-with-JS/tree/master/0875-koko-eating-bananas) |
 ## Two Pointers
 |  |
 | ------- |
@@ -18,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/HWKDS/DSA-with-JS/tree/master/0074-search-a-2d-matrix) |
+| [0875-koko-eating-bananas](https://github.com/HWKDS/DSA-with-JS/tree/master/0875-koko-eating-bananas) |
 ## Matrix
 |  |
 | ------- |
